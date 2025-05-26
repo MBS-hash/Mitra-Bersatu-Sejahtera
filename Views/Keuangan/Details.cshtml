@@ -1,0 +1,30 @@
+﻿@model MBSAdminApp.Models.Keuangan
+@{
+    ViewData["Title"] = "Detail Transaksi";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-3">Jenis Transaksi</dt>
+        <dd class="col-sm-9">@Model.JenisTransaksi</dd>
+
+        <dt class="col-sm-3">Kategori</dt>
+        <dd class="col-sm-9">@Model.Kategori</dd>
+
+        <dt class="col-sm-3">Nominal</dt>
+        <dd class="col-sm-9">@Model.Nominal.ToString("C")</dd>
+
+        <dt class="col-sm-3">Keterangan</dt>
+        <dd class="col-sm-9">@Model.Keterangan</dd>
+
+        <dt class="col-sm-3">Tanggal</dt>
+        <dd class="col-sm-9">@Model.Tanggal.ToShortDateString()</dd>
+    </dl>
+</div>
+
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Kembali</a>
+</p>

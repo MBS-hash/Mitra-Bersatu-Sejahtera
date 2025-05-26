@@ -1,0 +1,37 @@
+﻿@model MBSAdminApp.Models.Stok
+@{
+    ViewData["Title"] = "Edit Data Stok";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="JenisBahan"></label>
+        <input asp-for="JenisBahan" class="form-control" />
+        <span asp-validation-for="JenisBahan" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TotalMasuk"></label>
+        <input asp-for="TotalMasuk" class="form-control" />
+        <span asp-validation-for="TotalMasuk" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TotalKeluar"></label>
+        <input asp-for="TotalKeluar" class="form-control" />
+        <span asp-validation-for="TotalKeluar" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Simpan Perubahan</button> |
+    <a asp-action="Index">Kembali</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

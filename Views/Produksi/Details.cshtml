@@ -1,0 +1,36 @@
+﻿@model MBSAdminApp.Models.Produksi
+@{
+    ViewData["Title"] = "Detail Produksi";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-4">Jenis Proses</dt>
+        <dd class="col-sm-8">@Model.JenisProses</dd>
+
+        <dt class="col-sm-4">Bahan Awal</dt>
+        <dd class="col-sm-8">@Model.BahanAwal</dd>
+
+        <dt class="col-sm-4">Jumlah Awal (Kg)</dt>
+        <dd class="col-sm-8">@Model.JumlahAwalKg</dd>
+
+        <dt class="col-sm-4">Bahan Hasil</dt>
+        <dd class="col-sm-8">@Model.BahanHasil</dd>
+
+        <dt class="col-sm-4">Jumlah Hasil (Kg)</dt>
+        <dd class="col-sm-8">@Model.JumlahHasilKg</dd>
+
+        <dt class="col-sm-4">Nama Operator</dt>
+        <dd class="col-sm-8">@Model.NamaOperator</dd>
+
+        <dt class="col-sm-4">Tanggal</dt>
+        <dd class="col-sm-8">@Model.Tanggal.ToShortDateString()</dd>
+    </dl>
+</div>
+
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Kembali</a>
+</p>

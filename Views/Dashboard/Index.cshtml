@@ -1,0 +1,81 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+    var pembelian = ViewBag.PembelianData;
+    var produksi = ViewBag.ProduksiData;
+}
+
+<h2 class="mb-4">Dashboard Grafik Produksi & Pembelian</h2>
+
+<div class="row">
+    <div class="col-md-6 mb-4">
+        <canvas id="pembelianChart"></canvas>
+    </div>
+    <div class="col-md-6 mb-4">
+        <canvas id="produksiChart"></canvas>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const pembelianLabels = [
+            @for (int i = 0; i < pembelian.Count; i++)
+            {
+                    <text>"@pembelian[i].Bulan/@pembelian[i].Tahun"@(i < pembelian.Count - 1 ? "," : "")</text>
+            }
+        ];
+
+        const pembelianData = [
+            @for (int i = 0; i < pembelian.Count; i++)
+            {
+                    <text>@pembelian[i].TotalKg@(i < pembelian.Count - 1 ? "," : "")</text>
+            }
+        ];
+
+        const produksiLabels = [
+            @for (int i = 0; i < produksi.Count; i++)
+            {
+                    <text>"@produksi[i].Bulan/@produksi[i].Tahun"@(i < produksi.Count - 1 ? "," : "")</text>
+            }
+        ];
+
+        const produksiData = [
+            @for (int i = 0; i < produksi.Count; i++)
+            {
+                    <text>@produksi[i].TotalHasil@(i < produksi.Count - 1 ? "," : "")</text>
+            }
+        ];
+
+        new Chart(document.getElementById('pembelianChart'), {
+            type: 'bar',
+            data: {
+                labels: pembelianLabels,
+                datasets: [{
+                    label: 'Total Pembelian (Kg)',
+                    data: pembelianData,
+                    backgroundColor: 'rgba(54, 162, 235, 0.6)'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false
+            }
+        });
+
+        new Chart(document.getElementById('produksiChart'), {
+            type: 'bar',
+            data: {
+                labels: produksiLabels,
+                datasets: [{
+                    label: 'Total Produksi (Kg)',
+                    data: produksiData,
+                    backgroundColor: 'rgba(75, 192, 192, 0.6)'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false
+            }
+        });
+    </script>
+}

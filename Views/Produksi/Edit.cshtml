@@ -1,0 +1,61 @@
+﻿@model MBSAdminApp.Models.Produksi
+@{
+    ViewData["Title"] = "Edit Produksi";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="JenisProses"></label>
+        <input asp-for="JenisProses" class="form-control" />
+        <span asp-validation-for="JenisProses" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="BahanAwal"></label>
+        <input asp-for="BahanAwal" class="form-control" />
+        <span asp-validation-for="BahanAwal" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="JumlahAwalKg"></label>
+        <input asp-for="JumlahAwalKg" class="form-control" />
+        <span asp-validation-for="JumlahAwalKg" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="BahanHasil"></label>
+        <input asp-for="BahanHasil" class="form-control" />
+        <span asp-validation-for="BahanHasil" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="JumlahHasilKg"></label>
+        <input asp-for="JumlahHasilKg" class="form-control" />
+        <span asp-validation-for="JumlahHasilKg" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NamaOperator"></label>
+        <input asp-for="NamaOperator" class="form-control" />
+        <span asp-validation-for="NamaOperator" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Tanggal"></label>
+        <input asp-for="Tanggal" class="form-control" type="date" />
+        <span asp-validation-for="Tanggal" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Simpan Perubahan</button> |
+    <a asp-action="Index">Kembali</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,28 @@
+﻿@model MBSAdminApp.Models.Keuangan
+@{
+    ViewData["Title"] = "Hapus Transaksi";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h3>Yakin ingin menghapus transaksi ini?</h3>
+<hr />
+<dl class="row">
+    <dt class="col-sm-3">Jenis</dt>
+    <dd class="col-sm-9">@Model.JenisTransaksi</dd>
+
+    <dt class="col-sm-3">Kategori</dt>
+    <dd class="col-sm-9">@Model.Kategori</dd>
+
+    <dt class="col-sm-3">Nominal</dt>
+    <dd class="col-sm-9">@Model.Nominal.ToString("C")</dd>
+
+    <dt class="col-sm-3">Tanggal</dt>
+    <dd class="col-sm-9">@Model.Tanggal.ToShortDateString()</dd>
+</dl>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Hapus</button> |
+    <a asp-action="Index">Batal</a>
+</form>

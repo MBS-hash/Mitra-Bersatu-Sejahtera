@@ -1,0 +1,17 @@
+# Stage 1: build the application
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /app
+
+COPY *.sln .
+COPY MBSAdminApp/*.csproj ./MBSAdminApp/
+RUN dotnet restore
+
+COPY . .
+WORKDIR /app/MBSAdminApp
+RUN dotnet publish -c Release -o out
+
+# Stage 2: run the application
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
+WORKDIR /app
+COPY --from=build /app/MBSAdminApp/out ./
+ENTRYPOINT ["dotnet", "MBSAdminApp.dll"]

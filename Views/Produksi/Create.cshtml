@@ -1,0 +1,83 @@
+﻿@model MBSAdminApp.Models.Produksi
+@{
+    ViewData["Title"] = "Tambah Produksi";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="JenisProses"></label>
+        <input asp-for="JenisProses" class="form-control" />
+        <span asp-validation-for="JenisProses" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="BahanAwal"></label>
+        <input asp-for="BahanAwal" class="form-control" />
+        <span asp-validation-for="BahanAwal" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="JumlahAwalKg"></label>
+        <input asp-for="JumlahAwalKg" class="form-control" id="JumlahAwalKg" />
+        <span asp-validation-for="JumlahAwalKg" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="BahanHasil"></label>
+        <input asp-for="BahanHasil" class="form-control" id="BahanHasil" />
+        <span asp-validation-for="BahanHasil" class="text-danger"></span>
+        <small class="form-text text-muted">Masukkan jumlah bahan yang tersisa (Kg)</small>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="JumlahHasilKg"></label>
+        <input asp-for="JumlahHasilKg" class="form-control" id="JumlahHasilKg" readonly />
+        <span asp-validation-for="JumlahHasilKg" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NamaOperator"></label>
+        <input asp-for="NamaOperator" class="form-control" />
+        <span asp-validation-for="NamaOperator" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Tanggal"></label>
+        <input asp-for="Tanggal" class="form-control" type="date" />
+        <span asp-validation-for="Tanggal" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Simpan</button> |
+    <a asp-action="Index">Kembali</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const jumlahAwal = document.getElementById('JumlahAwalKg');
+            const bahanHasil = document.getElementById('BahanHasil');
+            const jumlahHasil = document.getElementById('JumlahHasilKg');
+
+            function hitungHasil() {
+                const awal = parseFloat(jumlahAwal.value);
+                const sisa = parseFloat(bahanHasil.value);
+
+                if (!isNaN(awal) && !isNaN(sisa)) {
+                    const hasil = awal - sisa;
+                    jumlahHasil.value = hasil.toFixed(2);
+                } else {
+                    jumlahHasil.value = '';
+                }
+            }
+
+            jumlahAwal.addEventListener('input', hitungHasil);
+            bahanHasil.addEventListener('input', hitungHasil);
+        });
+    </script>
+}

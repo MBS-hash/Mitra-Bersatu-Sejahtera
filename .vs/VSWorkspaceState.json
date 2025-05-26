@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\Controllers",
+    "\\Data",
+    "\\Helpers",
+    "\\Migrations",
+    "\\Models",
+    "\\Properties",
+    "\\Views",
+    "\\Views\\Shared"
+  ],
+  "SelectedNode": "\\MBSAdminApp.sln",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,45 @@
+﻿@model IEnumerable<MBSAdminApp.Models.Produksi>
+@{
+    ViewData["Title"] = "Data Produksi";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Tambah Produksi</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Jenis Proses</th>
+            <th>Bahan Awal</th>
+            <th>Jumlah Awal (Kg)</th>
+            <th>Bahan Hasil</th>
+            <th>Jumlah Hasil (Kg)</th>
+            <th>Operator</th>
+            <th>Tanggal</th>
+            <th>Aksi</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.JenisProses</td>
+                <td>@item.BahanAwal</td>
+                <td>@item.JumlahAwalKg</td>
+                <td>@item.BahanHasil</td>
+                <td>@item.JumlahHasilKg</td>
+                <td>@item.NamaOperator</td>
+                <td>@item.Tanggal.ToShortDateString()</td>
+                <td>
+                    <a asp-action="QrCode" asp-route-id="@item.Id">QR</a> |
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Detail</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Hapus</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

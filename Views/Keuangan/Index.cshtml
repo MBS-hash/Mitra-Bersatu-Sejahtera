@@ -1,0 +1,38 @@
+﻿@model IEnumerable<MBSAdminApp.Models.Keuangan>
+@{
+    ViewData["Title"] = "Data Keuangan";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p><a asp-action="Create" class="btn btn-primary">Tambah Transaksi</a></p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Jenis</th>
+            <th>Kategori</th>
+            <th>Nominal</th>
+            <th>Keterangan</th>
+            <th>Tanggal</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.JenisTransaksi</td>
+                <td>@item.Kategori</td>
+                <td>@item.Nominal.ToString("C")</td>
+                <td>@item.Keterangan</td>
+                <td>@item.Tanggal.ToShortDateString()</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Detail</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Hapus</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

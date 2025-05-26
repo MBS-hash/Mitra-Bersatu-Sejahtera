@@ -1,0 +1,40 @@
+﻿@model IEnumerable<MBSAdminApp.Models.Penjualan>
+@{
+    ViewData["Title"] = "Data Penjualan";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p><a asp-action="Create" class="btn btn-primary">Tambah Penjualan</a></p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Nama Pembeli</th>
+            <th>Jenis Produk</th>
+            <th>Jumlah (Kg)</th>
+            <th>Harga/Kg</th>
+            <th>Total</th>
+            <th>Tanggal</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.NamaPembeli</td>
+                <td>@item.JenisProduk</td>
+                <td>@item.JumlahKg</td>
+                <td>@item.HargaPerKg.ToString("C")</td>
+                <td>@item.TotalHarga.ToString("C")</td>
+                <td>@item.Tanggal.ToShortDateString()</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Detail</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Hapus</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

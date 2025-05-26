@@ -1,0 +1,37 @@
+﻿@model MBSAdminApp.Models.Pembelian
+@{
+    ViewData["Title"] = "Detail Pembelian";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div>
+    <h4>Pembelian</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">Nama Petani</dt>
+        <dd class="col-sm-9">@Model.NamaPetani</dd>
+
+        <dt class="col-sm-3">Wilayah</dt>
+        <dd class="col-sm-9">@Model.Wilayah</dd>
+
+        <dt class="col-sm-3">Jenis Bahan</dt>
+        <dd class="col-sm-9">@Model.JenisBahan</dd>
+
+        <dt class="col-sm-3">Jumlah (Kg)</dt>
+        <dd class="col-sm-9">@Model.JumlahKg</dd>
+
+        <dt class="col-sm-3">Harga per Kg</dt>
+        <dd class="col-sm-9">@Model.HargaPerKg.ToString("C")</dd>
+
+        <dt class="col-sm-3">Total Harga</dt>
+        <dd class="col-sm-9">@Model.TotalHarga.ToString("C")</dd>
+
+        <dt class="col-sm-3">Tanggal</dt>
+        <dd class="col-sm-9">@Model.Tanggal.ToShortDateString()</dd>
+    </dl>
+</div>
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Kembali</a>
+</p>

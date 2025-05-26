@@ -1,0 +1,277 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\MBSAdminApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|c:\\users\\user\\documents\\mbsadminapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|c:\\users\\user\\documents\\mbsadminapp\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|solutionrelative:views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|c:\\users\\user\\documents\\mbsadminapp\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|c:\\users\\user\\documents\\mbsadminapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|c:\\users\\user\\documents\\mbsadminapp\\mbsadminapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|solutionrelative:mbsadminapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|c:\\users\\user\\documents\\mbsadminapp\\data\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|solutionrelative:data\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|c:\\users\\user\\documents\\mbsadminapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|c:\\users\\user\\documents\\mbsadminapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|c:\\users\\user\\documents\\mbsadminapp\\views\\produksi\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|solutionrelative:views\\produksi\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|c:\\users\\user\\documents\\mbsadminapp\\views\\produksi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|solutionrelative:views\\produksi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|c:\\users\\user\\documents\\mbsadminapp\\views\\produksi\\qrcode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|solutionrelative:views\\produksi\\qrcode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|c:\\users\\user\\documents\\mbsadminapp\\controllers\\produksiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|solutionrelative:controllers\\produksiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|c:\\users\\user\\documents\\mbsadminapp\\views\\pembelian\\qrcode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|solutionrelative:views\\pembelian\\qrcode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|c:\\users\\user\\documents\\mbsadminapp\\controllers\\pembelianscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|solutionrelative:controllers\\pembelianscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|c:\\users\\user\\documents\\mbsadminapp\\views\\qrcode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|solutionrelative:views\\qrcode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|c:\\users\\user\\documents\\mbsadminapp\\views\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C1DA5A-A6BA-4CDA-A198-1DFE12A99D51}|MBSAdminApp.csproj|solutionrelative:views\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\MBSAdminApp\\Data\\ApplicationDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\MBSAdminApp\\Data\\ApplicationDbContextFactory.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T03:35:52.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\MBSAdminApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Documents\\MBSAdminApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-26T02:52:26.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MBSAdminApp.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\MBSAdminApp\\MBSAdminApp.csproj",
+              "RelativeDocumentMoniker": "MBSAdminApp.csproj",
+              "ToolTip": "C:\\Users\\user\\Documents\\MBSAdminApp\\MBSAdminApp.csproj",
+              "RelativeToolTip": "MBSAdminApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-26T02:40:39.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\MBSAdminApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\MBSAdminApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T02:37:16.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\MBSAdminApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\MBSAdminApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAIwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T00:55:18.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\MBSAdminApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Documents\\MBSAdminApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAADwv0QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T00:51:16.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\MBSAdminApp\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Documents\\MBSAdminApp\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAIwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T00:50:59.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\MBSAdminApp\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\MBSAdminApp\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T00:46:37.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\MBSAdminApp\\Views\\Produksi\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Produksi\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\Documents\\MBSAdminApp\\Views\\Produksi\\Create.cshtml",
+              "RelativeToolTip": "Views\\Produksi\\Create.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAADwv1MAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T00:38:18.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\MBSAdminApp\\Views\\Produksi\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Produksi\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Documents\\MBSAdminApp\\Views\\Produksi\\Index.cshtml",
+              "RelativeToolTip": "Views\\Produksi\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvy0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T00:27:52.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QrCode.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\MBSAdminApp\\Views\\Produksi\\QrCode.cshtml",
+              "RelativeDocumentMoniker": "Views\\Produksi\\QrCode.cshtml",
+              "ToolTip": "C:\\Users\\user\\Documents\\MBSAdminApp\\Views\\Produksi\\QrCode.cshtml",
+              "RelativeToolTip": "Views\\Produksi\\QrCode.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T00:27:30.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProduksisController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\MBSAdminApp\\Controllers\\ProduksisController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProduksisController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\MBSAdminApp\\Controllers\\ProduksisController.cs",
+              "RelativeToolTip": "Controllers\\ProduksisController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAIwJgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T00:25:57.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "QrCode.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\MBSAdminApp\\Views\\Pembelian\\QrCode.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pembelian\\QrCode.cshtml",
+              "ToolTip": "C:\\Users\\user\\Documents\\MBSAdminApp\\Views\\Pembelian\\QrCode.cshtml",
+              "RelativeToolTip": "Views\\Pembelian\\QrCode.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T00:18:05.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PembeliansController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\MBSAdminApp\\Controllers\\PembeliansController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PembeliansController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\MBSAdminApp\\Controllers\\PembeliansController.cs",
+              "RelativeToolTip": "Controllers\\PembeliansController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAIwJkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T00:15:09.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "QrCode.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\MBSAdminApp\\Views\\QrCode.cshtml",
+              "RelativeDocumentMoniker": "Views\\QrCode.cshtml",
+              "ToolTip": "C:\\Users\\user\\Documents\\MBSAdminApp\\Views\\QrCode.cshtml",
+              "RelativeToolTip": "Views\\QrCode.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T00:12:30.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\MBSAdminApp\\Views\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Documents\\MBSAdminApp\\Views\\Index.cshtml",
+              "RelativeToolTip": "Views\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T00:11:30.312Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

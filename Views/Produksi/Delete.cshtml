@@ -1,0 +1,28 @@
+﻿@model MBSAdminApp.Models.Produksi
+@{
+    ViewData["Title"] = "Hapus Produksi";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h3>Apakah Anda yakin ingin menghapus data ini?</h3>
+<hr />
+<dl class="row">
+    <dt class="col-sm-4">Jenis Proses</dt>
+    <dd class="col-sm-8">@Model.JenisProses</dd>
+
+    <dt class="col-sm-4">Bahan Awal</dt>
+    <dd class="col-sm-8">@Model.BahanAwal</dd>
+
+    <dt class="col-sm-4">Jumlah Awal (Kg)</dt>
+    <dd class="col-sm-8">@Model.JumlahAwalKg</dd>
+
+    <dt class="col-sm-4">Bahan Hasil</dt>
+    <dd class="col-sm-8">@Model.BahanHasil</dd>
+</dl>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Hapus</button> |
+    <a asp-action="Index">Batal</a>
+</form>

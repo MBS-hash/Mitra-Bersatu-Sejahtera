@@ -1,0 +1,49 @@
+﻿@model MBSAdminApp.Models.Penjualan
+@{
+    ViewData["Title"] = "Edit Penjualan";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="NamaPembeli"></label>
+        <input asp-for="NamaPembeli" class="form-control" />
+        <span asp-validation-for="NamaPembeli" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="JenisProduk"></label>
+        <input asp-for="JenisProduk" class="form-control" />
+        <span asp-validation-for="JenisProduk" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="JumlahKg"></label>
+        <input asp-for="JumlahKg" class="form-control" />
+        <span asp-validation-for="JumlahKg" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="HargaPerKg"></label>
+        <input asp-for="HargaPerKg" class="form-control" />
+        <span asp-validation-for="HargaPerKg" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Tanggal"></label>
+        <input asp-for="Tanggal" class="form-control" type="date" />
+        <span asp-validation-for="Tanggal" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Simpan Perubahan</button> |
+    <a asp-action="Index">Kembali</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

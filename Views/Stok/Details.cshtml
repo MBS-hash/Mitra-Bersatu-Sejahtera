@@ -1,0 +1,27 @@
+﻿@model MBSAdminApp.Models.Stok
+@{
+    ViewData["Title"] = "Detail Data Stok";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-4">Jenis Bahan</dt>
+        <dd class="col-sm-8">@Model.JenisBahan</dd>
+
+        <dt class="col-sm-4">Total Masuk (Kg)</dt>
+        <dd class="col-sm-8">@Model.TotalMasuk</dd>
+
+        <dt class="col-sm-4">Total Keluar (Kg)</dt>
+        <dd class="col-sm-8">@Model.TotalKeluar</dd>
+
+        <dt class="col-sm-4">Sisa Stok (Kg)</dt>
+        <dd class="col-sm-8">@Model.SisaStok</dd>
+    </dl>
+</div>
+
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Kembali</a>
+</p>
